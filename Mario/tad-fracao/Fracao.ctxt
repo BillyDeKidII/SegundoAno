@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=numerador\ denominador
+comment0.target=Fracao(int,\ int)
+comment1.params=fracao
+comment1.target=Fracao\ somar(Fracao)
+comment2.params=i
+comment2.target=Fracao\ soma(int)
+comment3.params=
+comment3.target=int\ mmc()
+comment4.params=fracao
+comment4.target=Fracao\ subtrair(Fracao)
+comment5.params=fracao
+comment5.target=Fracao\ multiplicar(Fracao)
+comment6.params=fracao
+comment6.target=Fracao\ dividir(Fracao)
+comment7.params=i
+comment7.target=Fracao\ subtrair(int)
+comment8.params=i
+comment8.target=Fracao\ multiplicar(int)
+comment9.params=i
+comment9.target=Fracao\ dividir(int)
+numComments=10

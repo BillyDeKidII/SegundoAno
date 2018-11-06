@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Arvore()
+comment0.text=Construtor\ da\ classe\ Arvore
+comment1.params=valor
+comment1.target=void\ inserir(int)
+comment2.params=node\ valor
+comment2.target=void\ inserirAuxiliar(Node,\ int)
+comment3.params=valor
+comment3.target=void\ remover(int)
+comment4.params=node\ valor
+comment4.target=Node\ removerAuxiliar(Node,\ int)
+comment5.params=key
+comment5.target=Node\ busca(int)
+comment6.params=k\ node
+comment6.target=Node\ search_recursively(int,\ Node)
+comment7.params=root
+comment7.target=Node\ buscaMin(Node)
+comment8.params=
+comment8.target=boolean\ isEmpty()
+comment9.params=root
+comment9.target=int\ contaNodes(Node)
+numComments=10

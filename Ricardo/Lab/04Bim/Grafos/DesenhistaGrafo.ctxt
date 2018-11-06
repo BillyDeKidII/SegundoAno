@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DesenhistaGrafo()
+comment1.params=grafo
+comment1.target=void\ setGrafo(Grafos.Grafo)
+comment10.params=objPos
+comment10.target=Grafos.Vertice\ sobreVertice(java.awt.Point)
+comment2.params=novoModo
+comment2.target=void\ setModoEdicao(DesenhistaGrafo.ModoEdicao)
+comment3.params=posicao
+comment3.target=void\ adicionarVertice(java.awt.Point)
+comment4.params=posicao
+comment4.target=void\ removerVertice(java.awt.Point)
+comment5.params=p
+comment5.target=void\ ligarVertices(java.awt.Point)
+comment5.text=\r\n\ No\ m\u00E9todo\ ligarVertices,\ onde\ recebe\ por\ argumento\ um\ Point,\ que\ insere\ na\ lista\ de\ adjacencias\ \r\n\ uma\ aresta,\ contendo\ dois\ v\u00E9rtices\ e\ o\ peso\ dela\ (origem,destino\ e\ peso),\ aqui\ temos\ duas\r\n\ importante\ verifica\u00E7\u00E3o,\ se\ a\ origem\ ja\ existe\ ent\u00E3o\ adicionamos\ o\ Point(Posicao\ x,\ e\ y),\ \r\n\ \r\n
+comment6.params=posicao
+comment6.target=void\ moverVertice(java.awt.Point)
+comment7.params=posicao
+comment7.target=void\ renomearVertice(java.awt.Point)
+comment8.params=g
+comment8.target=void\ paintComponent(java.awt.Graphics)
+comment8.text=\r\n\ M\u00E9todo\ respons\u00E1vel\ por\ desenhar\ o\ arranjo,\ al\u00E9m\ de\ outros\ elementos\ gr\u00E1ficos\ secund\u00E1rios\ e\r\n\ auxiliares.\ \u00C9\ aqui\ que\ os\ alunos\ dever\u00E3o\ trabalhar.\ Por\u00E9m\ devem\ evitar\ de\ fazerem\ um\ c\u00F3digo\r\n\ demasiadamente\ grande,\ devem\ separar\ em\ m\u00E9todos\ auxiliares\ (subrotinas)\ sempre\ que\ poss\u00EDvel.\r\n\ \r\n\ @param\ g\ Pincel\ do\ desenhista.\r\n\ @see\ java.awt.Graphics,\ java.swing.Graphics2D\r\n
+comment9.params=p1\ p2
+comment9.target=double\ distance(java.awt.Point,\ java.awt.Point)
+numComments=11

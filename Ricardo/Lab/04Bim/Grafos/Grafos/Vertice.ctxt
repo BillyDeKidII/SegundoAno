@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=atributos
+comment0.target=Vertice(java.lang.Object)
+comment0.text=\r\n\ Construtor\ da\ classe\ Vertice\ recebe\ argumento\ para\ inicializar\r\n\ \r\n\ @param\ atributos,\ Nome\ ou\ informa\u00E7\u00E3o\ do\ v\u00E9rtice.\r\n
+comment1.params=
+comment1.target=java.lang.Object\ getAtributos()
+comment1.text=M\u00E9todos\ acessores\ da\ classe
+comment2.params=a
+comment2.target=void\ setAtributos(java.lang.Object)
+comment3.params=
+comment3.target=java.util.List\ getAdjacentes()
+comment3.text=\r\n\ No\ m\u00E9todo\ getAdjacent\ pega\ a\ lista\ de\ adjacencias\ e\ retorna\ ela.\r\n\ \r\n\ @return\ adjacencias,\ Retorna\ a\ lista\ de\ aresta\ desse\ v\u00E9rtice.\ \r\n
+comment4.params=vertice\ x
+comment4.target=Aresta\ inserirAresta(Vertice,\ java.lang.Object)
+comment5.params=vertice\ aresta\ x
+comment5.target=Aresta\ inserirAresta(Vertice,\ Aresta,\ java.lang.Object)
+comment6.params=adj
+comment6.target=void\ inserirAdjacentes(Vertice)
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment8.params=
+comment8.target=void\ removerVizinhos()
+numComments=9

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=arr\ chave
+comment0.target=java.util.Optional\ busca(int[],\ int)
+comment0.text=\r\n\ Busca\ pelo\ valor\ chave\ no\ arranjo\ arr\ e,\ se\ existir,\ retorna\r\n\ o\ \u00EDndice\ da\ ocorr\u00EAncia\ de\ chave\ em\ arr.\r\n\ \r\n\ @param\ arr\ arranjo\ onde\ chave\ ser\u00E1\ busca.\r\n\ @param\ chave\ valor\ a\ ser\ buscado.\r\n\ @return\ \u00EDndice\ de\ chave\ em\ arr,\ se\ existir.\r\n
+comment1.params=arr\ chave
+comment1.target=java.util.Optional\ buscaBinaria(int[],\ int)
+comment1.text=\r\n\ Busca\ pelo\ valor\ chave\ no\ arranjo\ arr\ e,\ se\ existir,\ retorna\r\n\ o\ \u00EDndice\ da\ ocorr\u00EAncia\ de\ chave\ em\ arr.\r\n\ \r\n\ @param\ arr\ arranjo\ onde\ chave\ ser\u00E1\ busca.\ PRECOND\:\ estar\ ordenado.\r\n\ @param\ chave\ valor\ a\ ser\ buscado.\r\n\ @return\ \u00EDndice\ de\ chave\ em\ arr,\ se\ existir.\r\n
+comment2.params=arr\ chave
+comment2.target=java.util.Optional\ buscaBinariaRecursivo(int[],\ int)
+comment2.text=\r\n\ Busca\ pelo\ valor\ chave\ no\ arranjo\ arr\ e,\ se\ existir,\ retorna\r\n\ o\ \u00EDndice\ da\ ocorr\u00EAncia\ de\ chave\ em\ arr.\r\n\ \r\n\ @param\ arr\ arranjo\ onde\ chave\ ser\u00E1\ busca.\ PRECOND\:\ estar\ ordenado.\r\n\ @param\ chave\ valor\ a\ ser\ buscado.\r\n\ @return\ \u00EDndice\ de\ chave\ em\ arr,\ se\ existir.\r\n
+numComments=3

@@ -1,0 +1,59 @@
+GLOBAL VIEW
+-Acesse o diretório "Use Case View".
+-Dê um duplo clique em "Main".
+-Crie um domínio ultilizando o ícone (MUNDO).
+-Depois de criado,dê um nome para o domínio.Exemplo: Sistema para Controle de CD's
+-OBSERVAÇÕES:-Se o icone (MUNDO) não estiver disponível em sua barra de ferramentas, habilite-o clicando
+na respectiva barra de ferramentas --> Customize --> Selecionando o icone(MUNDO).
+
+DIAGRAMA DE ATIVIDADES
+-Clique com o botao direito do mouse em cima do dominío já criado.
+-New --> Activity Diagram.
+-Dê um nome para o Diagrama.
+-Dê duplo clique no diagrama criado.
+
+DIAGRAMA DE IMPLANTAÇÃO
+-Dê duplo clique em "Deployment View"
+-Crie o ambiente onde rodará o sistema com:
+  -Processadores.
+  -Dispositivos.
+  -Links(Conexões).
+  -Observações:-Processadores e Dispositivos tem que ter uma conexão 
+  entre si.-Processador(Estações,Servidor,etc) é o icone pintado o fundo do seu 
+  cubo.-Dispositivo(Impressoras,scanner,hub,modem,etc) é o icone sem estar
+  pintado o seu fundo.-Conexão(para ligar um dispositivo e/ou processador ao outro)
+-Nomear as ligações do processador e/ou dispositivo.
+-Dê um duplo clique em um processador e/ou dispositivo.
+-Selecione ou digite um Esteriótipo para cada um.
+Exemplo- Pentium III <-- <<USB>> --> <<Impressora>> HP 692c.
+
+ATOR
+-Use Case View
+-Use case model
+-actors
+-botão direito em cima, new, actor
+-"sa"(nome do ator)
+
+CASO DE USO
+-os nomes sempre em verbo infinitivo, ação (cadastar, enviar, pagar, comprar)
+- Use-Case Model --> Use cases
+-botão direito, new package
+-"suc"(nome do caso de uso)
+-em cima do package
+-botão direito new, use case (usar mesmo nome)
+-em cima do caso de uso, new, use case diagram
+-criar uma visão
+-colocar o nome "Visão local do UC (nome do caso de uso)" 
+-no visão você arrasta os atores e o caso de uso
+-depois de arrastar os atores, fazer a ligação com a seta unidirencional ->
+
+-Global View, vc tem a visão geral
+-clica e  arrasta os atores e os casos de uso
+
+-quando dois atores tem acesso ao mesmo caos de uso, usa a seta de generalização -|>
+
+0 <----- 0 (<<extend>>) meio que uma condicional, opcional 
+0 <----- 0 (<<include>>) obrigatório 
+
+URPS
+usabilidade, suportabilidade, confiabilidade, performace 

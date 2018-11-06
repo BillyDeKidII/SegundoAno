@@ -1,0 +1,54 @@
+select JOB_TITLE, MIN_SALARY, MAX_SALARY from JOBS
+order by 3 desc;
+
+select JOB_TITLE, MIN_SALARY, MAX_SALARY from JOBS
+where JOB_TITLE like '%Manager%'
+order by MAX_SALARY desc; 
+
+select distinct MAX_SALARY 
+from jobs
+order by 1;
+
+select distinct DEPARTMENT_ID
+from EMPLOYEES 
+order by DEPARTMENT_ID;
+
+select DISTINCT DEPARTMENT_ID
+from EMPLOYEES 
+WHERE DEPARTMENT_ID > 50
+order by DEPARTMENT_ID desc;
+
+select department_id, FIRST_NAME, LAST_NAME
+from EMPLOYEES
+where DEPARTMENT_ID not in (50,100)
+order by LAST_NAME, FIRST_NAME desc;
+
+select department_id, FIRST_NAME, LAST_NAME , SALARY
+from EMPLOYEES
+where DEPARTMENT_ID <> 50
+ and SALARY >= 5000
+order by LAST_NAME, FIRST_NAME desc;
+
+select department_id, FIRST_NAME, LAST_NAME , SALARY
+from EMPLOYEES
+where DEPARTMENT_ID <> 50
+ and SALARY >= 5000
+order by DEPARTMENT_ID desc;
+
+select FIRST_NAME, LAST_NAME ,SALARY 
+from EMPLOYEES
+where SALARY BETWEEN 6000 and 10000
+ORDER by SALARY;
+
+select FIRST_NAME, LAST_NAME ,SALARY 
+from EMPLOYEES
+where SALARY >= 6000
+ and SALARY <= 10000
+ORDER by SALARY;
+
+
+select department_id , LAST_NAME
+from EMPLOYEES 
+where DEPARTMENT_ID is not null
+ORDER by 1 desc;
+

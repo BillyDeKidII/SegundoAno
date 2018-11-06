@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.util.List\ vertices()
+comment1.params=
+comment1.target=java.util.List\ arestas()
+comment10.params=v
+comment10.target=java.lang.Object\ removerVertice(Vertice)
+comment11.params=e
+comment11.target=java.lang.Object\ removerAresta(Aresta)
+comment2.params=v
+comment2.target=java.util.List\ arestasIncidentes(Vertice)
+comment3.params=v\ e
+comment3.target=Vertice\ oposto(Vertice,\ Aresta)
+comment4.params=e
+comment4.target=java.util.List\ verticesFim(Aresta)
+comment5.params=v\ w
+comment5.target=boolean\ saoAdjacentes(Vertice,\ Vertice)
+comment6.params=v\ x
+comment6.target=java.lang.Object\ mudarPeso(Vertice,\ java.lang.Object)
+comment7.params=e\ x
+comment7.target=java.lang.Object\ mudarPeso(Aresta,\ java.lang.Object)
+comment8.params=x
+comment8.target=Vertice\ inserirVertice(java.lang.Object)
+comment9.params=v\ w\ x
+comment9.target=Aresta\ inserirAresta(Vertice,\ Vertice,\ java.lang.Object)
+numComments=12

@@ -1,0 +1,21 @@
+
+Resposta:
+Primeiramente temos que ver o arquivo Demo, lá passamos por inicialização mais de uma data, e instanciamos mais de uma.
+E 
+Quando atribuimos dessa forma:
+inícioDoEvento = new Data();  fimDoEvento = new Data(); 
+Estamos pegando Essa nova instancia, uma nova Data assim modificando as variaveis do arquivo Data.java
+Ou seja criando-se 2 datas diferentes
+
+Porém quando apenas fazemos isso
+inícioDoEvento = i; fimDoEvento = f; 
+
+Estamos ainda passamos por parametro as duas datas pelo Demo, porém na hora de passar por parametro o "i" e o "f"
+os valores ficam com o ultimo valor assim são substituidos pelo aquele ultimo valor das variaveis.
+Como se você fizesse isso:
+
+int x = 0;//iniciliza como zero
+x = 3;	  //atribui o x como 3
+x = 4;    //e substitui o valor 3 por 4
+quantoX = x;
+System.out.println(quantoX);//quantoX é igual a 4, o ultimo valor. 

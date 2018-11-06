@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ benchmark()
+comment1.params=dst\ src
+comment1.target=void\ clonarArranjo(int[],\ int[])
+comment2.params=length
+comment2.target=int[]\ novoArranjoCrescente(int)
+comment3.params=length
+comment3.target=int[]\ novoArranjoAleatorio(int)
+comment4.params=arranjo
+comment4.target=void\ selectionsort(int[])
+comment5.params=arranjo
+comment5.target=void\ bubblesort(int[])
+numComments=6

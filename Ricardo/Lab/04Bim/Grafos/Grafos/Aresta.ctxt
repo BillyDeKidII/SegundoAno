@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=o\ d\ a
+comment0.target=Aresta(Vertice,\ Vertice,\ java.lang.Object)
+comment0.text=\r\n\ Construtor\ da\ classe\ Aresta,\ que\ recebe\ como\ argumento\ duas\ v\u00E9rtices\r\n\ e\ um\ valor\ representando\ o\ peso\ da\ aresta,\ nesse\ construtor\ s\u00E3o\ realizados\r\n\ apenas\ a\ inicializa\u00E7\u00E3o\ de\ seus\ valores\r\n\ \r\n\ @param\ o,\ A\ <b>Origem</b>\ da\ aresta,\ do\ tipo\ <i>Vertice</i>.\r\n\ @param\ d,\ O\ <b>Destino</b>\ da\ aresta,\ do\ tipo\ <i>Vertice</i>.\r\n\ @param\ a,\ O\ <b>peso</b>\ do\ caminho\ da\ aresta\r\n
+comment1.params=
+comment1.target=Vertice\ getOrigem()
+comment2.params=
+comment2.target=Vertice\ getDestino()
+comment3.params=
+comment3.target=java.lang.Object\ getAtributos()
+comment4.params=o
+comment4.target=void\ setOrigem(Vertice)
+comment5.params=d
+comment5.target=void\ setDestino(Vertice)
+comment6.params=p
+comment6.target=void\ setPeso(java.lang.Object)
+numComments=7

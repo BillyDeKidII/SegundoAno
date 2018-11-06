@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Node()
+comment1.params=valor
+comment1.target=Node(int)
+comment2.params=
+comment2.target=Node\ getEsquerda()
+comment3.params=
+comment3.target=Node\ getDireita()
+comment4.params=
+comment4.target=int\ getValor()
+comment5.params=valor
+comment5.target=void\ setValor(int)
+comment6.params=esquerda
+comment6.target=void\ setEsquerda(Node)
+comment7.params=direita
+comment7.target=void\ setDireita(Node)
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9

@@ -1,0 +1,70 @@
+CREATE TABLE Medico_Paciente (
+cod_paciente number(4) not null,
+cod_medico number(4) not null,
+PRIMARY KEY(cod_paciente,cod_medico)
+);
+CREATE TABLE Paciente (
+cod_paciente number(4) not null PRIMARY KEY,
+nome_paciente varchar2(50) not null,
+endereco varchar2(50)
+);
+CREATE TABLE Exame (
+cod_exame number(10) not null,
+cod_paciente number(4) not null,
+des_exame varchar2(50) not null,
+requisitos_exame varchar2(50) not null,
+valor_exame number(7,2) not null,
+aceita_convenio varchar2(1),
+resultado varchar2(50),
+esta_pago varchar2(1),
+PRIMARY KEY(cod_exame,cod_paciente),
+FOREIGN KEY(cod_paciente) REFERENCES Paciente (cod_paciente)
+);
+CREATE TABLE Medico (
+cod_medico number(4) not null PRIMARY KEY,
+nome_medico varchar2(50) not null,
+especialidade varchar2(50)
+);
+ALTER TABLE Medico_Paciente ADD FOREIGN KEY(cod_paciente) REFERENCES Paciente (cod_paciente);
+ALTER TABLE Medico_Paciente ADD FOREIGN KEY(cod_medico) REFERENCES Medico (cod_medico);
+
+show user;
+
+select * from paciente
+ORDER BY 1;
+
+insert into medico values(3,'APARECIDO SANTOS', 'DERMATOLOGIA');
+
+SELECT * FROM MEDICO ORDER BY 1;
+
+SELECT * FROM MEDICO_PACIENTE
+ORDER BY COD_MEDICO;
+
+SELECT MP.COD_PACIENTE, P.NOME_PACIENTE,
+       MP.COD_MEDICO, M.NOME_MEDICO
+FROM MEDICO_PACIENTE MP, MEDICO M, PACIENTE P
+WHERE MP.COD_MEDICO = M.COD_MEDICO
+  AND MP.COD_PACIENTE = P.COD_PACIENTE
+ORDER BY P.COD_PACIENTE, MP.COD_MEDICO;  
+
+SELECT MP.COD_PACIENTE, P.NOME_PACIENTE,
+       MP.COD_MEDICO, M.NOME_MEDICO
+FROM MEDICO_PACIENTE MP, MEDICO M, PACIENTE P
+WHERE MP.COD_MEDICO = M.COD_MEDICO
+  AND MP.COD_PACIENTE = P.COD_PACIENTE
+  AND UPPER(P.NOME_PACIENTE) LIKE 'JO%'
+ORDER BY P.COD_PACIENTE, MP.COD_MEDICO;  
+
+SELECT MP.COD_MEDICO, M.NOME_MEDICO, M.ESPECIALIDADE,
+       MP.COD_PACIENTE, P.NOME_PACIENTE
+FROM MEDICO_PACIENTE MP, MEDICO M, PACIENTE P
+WHERE MP.COD_MEDICO = M.COD_MEDICO
+  AND MP.COD_PACIENTE = P.COD_PACIENTE
+  AND UPPER(M.NOME_MEDICO) LIKE 'MARCO%'
+ORDER BY P.COD_PACIENTE, MP.COD_MEDICO; 
+
+CONSULTAR MEDICOS POR ESPECIALIDADE, MOSTRAR OS PACIENTES
+CADASTRAR EXAMES DO PACIENTE
+CONSULTAR EXAMES DE UM PACIENTE ESPECIFICO
+
+SELECT * FROM EXAME;

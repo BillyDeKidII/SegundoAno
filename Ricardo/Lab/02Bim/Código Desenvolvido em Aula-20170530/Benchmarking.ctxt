@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ benchmark()
+comment1.params=ordenacao\ de\ ate\ passo\ amostragem
+comment1.target=Benchmarking.Medicao[]\ benchmarkOrdenacao(java.util.function.Function,\ int,\ int,\ int,\ int)
+comment1.text=\r\n\ M\u00E9todo\ que\ realiza\ benchmarking\ de\ tempo\ de\ execu\u00E7\u00E3o\ para\ um\ dado\ \r\n\ m\u00E9todo\ de\ ordena\u00E7\u00E3o,\ variando\ a\ quantidade\ de\ elementos\ do\ arranjo\r\n\ de\ entrada\ de\ um\ limite\ inferior\ at\u00E9\ outro\ superior,\ por\ incrementos\r\n\ configur\u00E1vel.\ Para\ remover\ interfer\u00EAncia,\ utiliza\ m\u00E9dia\ de\ amostragem\r\n\ \r\n\ @param\ ordenacao\ Refer\u00EAncia\ para\ o\ m\u00E9todo\ de\ ordena\u00E7\u00E3o\ a\ ser\ mensurado.\r\n\ @param\ de\ Limite\ inferior\ da\ quantidade\ de\ elementos\ do\ arranjo\ de\ entrada.\r\n\ @param\ ate\ Limite\ superior\ da\ quantidade\ de\ elementos\ do\ arranjo\ de\ entrada.\r\n\ @param\ passo\ Incremento\ na\ quantidade\ de\ elementos.\r\n\ @param\ amostragem\ Quantidade\ de\ testes\ a\ serem\ feitos\ para\ cada\ incremento,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ para\ tirada\ da\ m\u00EAdia\ e\ remo\u00E7\u00E3o\ de\ ru\u00EDdos.\r\n\ \r\n\ @return\ Arranjo\ com\ cada\ medi\u00E7\u00E3o,\ ordenado\ crescentemente\ pela\ quantidade\r\n\ \ \ \ \ \ \ \ \ de\ elementos\ de\ entrada.\r\n
+comment2.params=
+comment2.target=Benchmarking()
+comment2.text=\r\n\ Essa\ classe\ n\u00E3o\ deve\ ser\ instanciada.\r\n
+numComments=3

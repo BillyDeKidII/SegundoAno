@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Tela()
+comment0.text=\n\ Construtor\ padr\u00E3o\ da\ classe.\ Configura\ algumas\ op\u00E7\u00F5es\ de\ cores\ da\ tela\ e\ atribibutos\ do\n\ pincel.\n\ \n
+comment1.params=desenho
+comment1.target=Tela(java.lang.String)
+comment1.text=\n\ Outro\ construtor\ para\ a\ Tela.\n\ \n\ @param\ desenho\ Nome\ do\ desenho\ a\ ser\ pintado\ inicialmente.\n
+comment2.params=desenho
+comment2.target=void\ setDesenho(java.lang.String)
+comment2.text=\n\ Define\ um\ novo\ desenho\ para\ ser\ pintado\ na\ tela.\n\ \n\ @para\ desenho\ Nome\ do\ novo\ desenho\ a\ ser\ pintado.\n
+comment3.params=g2d
+comment3.target=void\ exibirInfosUteis(java.awt.Graphics2D)
+comment3.text=\n\ M\u00E9todo\ que\ escreve\ informa\u00E7\u00F5es\ auxiliares\ \u00FAteis\:\n\ \ -\ Dimens\u00F5es\ da\ tela\n\ \ -\ Desenho\ Escolhido\n\ \n\ @param\ g2d\ Pincel\ utilizado\ para\ desenhar\ na\ tela.\n
+comment4.params=g
+comment4.target=void\ paintComponent(java.awt.Graphics)
+comment4.text=\n\ M\u00E9todo\ respons\u00E1vel\ por\ desenhar\ tudo\ o\ que\ ir\u00E1\ aparecer\ na\ tela.\ \u00C9\ aqui\ que\ os\ alunos\ dever\u00E3o\n\ trabalhar.\ Por\u00E9m\ devem\ evitar\ de\ fazerem\ um\ c\u00F3digo\ demasiadamente\ grande,\ devem\ separar\ em\n\ m\u00E9todos\ auxiliares\ (subrotinas)\ sempre\ que\ poss\u00EDvel.\n\ \n\ @param\ g\ Pincel\ do\ desenhista.\n\ @see\ java.awt.Graphics,\ java.swing.Graphics2D\n
+numComments=5

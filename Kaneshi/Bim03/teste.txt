@@ -1,0 +1,35 @@
+select * from medico;
+
+select * from paciente;
+
+select * from medico_paciente;
+
+select * from exame;
+order by cod_paciente;
+
+--InnerJoin
+select p.cod_paciente, p.nome_paciente, e.des_exame
+ from paciente p, exame e
+ where p.cod_paciente = e.cod_paciente
+ order by p.cod_paciente;
+
+--InnerJoin2
+select p.cod_paciente, p.nome_paciente, e.des_exame
+ from paciente p join exame e
+ on (p.cod_paciente = e.cod_paciente)
+ order by p.cod_paciente;
+
+--Alter Join
+select p.cod_paciente, p.nome_paciente, e.des_exame
+ from paciente p, exame e
+ where p.cod_paciente = e.cod_paciente(+)
+ order by p.cod_paciente;
+
+SELECT d.department_name, e.employee_id, e.manager_id, e.first_name ,c.country_name
+FROM  departments d join  employees e
+    on (d.department_id = e.department_id)
+      join locations l
+    on (d.location_id = l.location_id)
+      join countries c
+    on (l.country_id = c.country_id)
+    where c.country_id = 'CA';

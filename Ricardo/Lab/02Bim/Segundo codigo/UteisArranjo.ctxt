@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=UteisArranjo
+comment0.text=\n\ Write\ a\ description\ of\ class\ UteisArranjo\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=dst\ src
+comment1.target=void\ clonarArranjo(int[],\ int[])
+comment2.params=src
+comment2.target=int[]\ clonarArranjo(int[])
+comment3.params=length
+comment3.target=int[]\ novoArranjoCrescente(int)
+comment4.params=length
+comment4.target=int[]\ novoArranjoDecrescente(int)
+comment5.params=length\ seed
+comment5.target=int[]\ novoArranjoAleatorio(int,\ java.util.Optional)
+comment6.params=length
+comment6.target=int[]\ novoArranjoAleatorio(int)
+comment7.params=
+comment7.target=UteisArranjo()
+comment7.text=\n\ Essa\ classe\ n\u00E3o\ deve\ ser\ instanciada.\n
+numComments=8

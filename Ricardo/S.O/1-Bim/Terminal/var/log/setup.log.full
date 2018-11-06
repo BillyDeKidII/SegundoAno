@@ -1,0 +1,21 @@
+2017/03/06 11:17:01 Starting cygwin install, version 2.877
+2017/03/06 11:17:01 User has backup/restore rights
+2017/03/06 11:17:01 io_stream_cygfile: fopen(/etc/setup/setup.rc) failed 2 No such file or directory
+2017/03/06 11:17:01 Current Directory: C:\Users\Thiago Romao\Desktop
+2017/03/06 11:17:01 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2017/03/06 11:17:07 source: from local dir
+2017/03/06 11:17:36 mbox yesno: You should not choose a root path that include spaces in directory names.  Proceed anyway?
+2017/03/06 11:18:00 mbox yesno: You should not choose a root path that include spaces in directory names.  Proceed anyway?
+2017/03/06 11:18:02 root: C:\Users\Thiago Romao\Desktop\Faculdade\2Ano\Ricardo\S.O\Terminal system
+2017/03/06 11:18:17 Selected local directory: C:\Users\Thiago Romao\Desktop\Faculdade\2Ano\Ricardo\S.O\Terminal
+2017/03/06 11:18:17 io_stream_cygfile: fopen(/etc/setup/installed.db) failed 2 No such file or directory
+2017/03/06 11:18:21 Changing gid back to original
+Visited: 0 nodes out of 0 while creating dependency order.
+Dependency order of packages: 
+2017/03/06 11:18:21 Changing gid to Administrators
+Program directory for program link: C:\ProgramData\Microsoft\Windows\Start Menu\Programs
+Desktop directory for desktop link: C:\Users\Public\Desktop
+Program directory for program link: C:\ProgramData\Microsoft\Windows\Start Menu\Programs/Cygwin
+Desktop directory for desktop link: C:\Users\Public\Desktop
+2017/03/06 11:18:25 note: Nothing needed to be installed
+2017/03/06 11:18:25 Ending cygwin install

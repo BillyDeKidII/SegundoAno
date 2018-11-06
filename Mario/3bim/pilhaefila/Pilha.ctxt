@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Pilha()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Pilha\n
+comment1.params=node
+comment1.target=void\ empilhar(Node)
+comment2.params=
+comment2.target=void\ desempilhar()
+comment3.params=
+comment3.target=boolean\ pilhaVazia()
+comment4.params=
+comment4.target=Node\ getTopo()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

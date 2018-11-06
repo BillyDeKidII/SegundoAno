@@ -1,0 +1,32 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files\Java\jdk1.8.0_45\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.8
+-classpath
+C:\Program Files (x86)\BlueJ\lib\bluejcore.jar;C:\Program Files (x86)\BlueJ\lib\junit-4.8.2.jar;C:\Users\José Ricardo\OneDrive\Unifil\Matérias\2° Ano\Laboratório de Computação II\2° Bimestre\jfreechart-1.0.19\lib\jcommon-1.0.23.jar;C:\Users\José Ricardo\OneDrive\Unifil\Matérias\2° Ano\Laboratório de Computação II\2° Bimestre\jfreechart-1.0.19\lib\jfreechart-1.0.19.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-core.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-device.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-gpio-extension.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-service.jar;C:\Users\José Ricardo\Documents\GitHub\Laboratorio-Computacao-II\4° Bimestre\Grafos
+-d
+C:\Users\José Ricardo\Documents\GitHub\Laboratorio-Computacao-II\4° Bimestre\Grafos\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+C:\Program Files (x86)\BlueJ\lib\bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+C:\Users\José Ricardo\Documents\GitHub\Laboratorio-Computacao-II\4° Bimestre\Grafos\DesenhistaGrafo.java
+<---- end of javadoc command ---->
+Loading source file C:\Users\José Ricardo\Documents\GitHub\Laboratorio-Computacao-II\4° Bimestre\Grafos\DesenhistaGrafo.java...
+C:\Users\José Ricardo\Documents\GitHub\Laboratorio-Computacao-II\4° Bimestre\Grafos\DesenhistaGrafo.java:172: error: ')' expected
+      g2d.drawString(""+a.getAtributos(),(pos2.getX() + pos1.getX() )/ 2,( (pos2.getY() + pos1.getY() )/ 2 );
+                                                                                                            ^
+1 error

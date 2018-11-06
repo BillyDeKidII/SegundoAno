@@ -1,0 +1,32 @@
+--exercicio01
+
+select EMPLOYEE_ID MATRICULA, FIRST_NAME Nome, 
+LAST_NAME Sobrenome , MANAGER_ID 
+from EMPLOYEES
+where SALARY >= 500
+order by SALARY;
+
+--exercicio02
+
+select EMPLOYEE_ID , FIRST_NAME , LAST_NAME
+from EMPLOYEES
+where LAST_NAME not like '%E%' and
+LAST_NAME not like '%e%';
+
+--exercicio03
+
+SELECT JOB_ID,JOB_TITLE
+FROM JOBS
+WHERE JOB_TITLE like '%Sales%';
+
+--exercicio04
+
+SELECT DEPARTMENT_ID , DEPARTMENT_NAME  
+FROM DEPARTMENTS
+WHERE DEPARTMENT_NAME = 'Marketing';
+
+SELECT FIRST_NAME
+FROM EMPLOYEES
+WHERE DEPARTMENT_ID = 20;
+
+

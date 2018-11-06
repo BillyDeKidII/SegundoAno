@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Desenhista()
+comment0.text=\n\ O\ construtor\ do\ aplicativo\ Desenhista.\ \u00C9\ aqui\ que\ todos\ os\ elementos\ da\ interface\ gr\u00E1fica\ s\u00E3o\n\ constru\u00EDdos,\ configurados\ e\ posicionados.\ Por\ enquanto,\ aqui\ tamb\u00E9m\ \u00E9\ feito\ o\ tratamento\ de\ \n\ eventos\ (input\ de\ usu\u00E1rio\ atrav\u00E9s\ de\ mouse\ e\ teclado),\ utilizando\ classes\ an\u00F4nimas.\n\ Provavelmente\ vamos\ separar\ esta\ funcionalidade\ no\ futuro.\n\ \n\ @see\ javax.swing.JFrame\n
+comment1.params=e
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=\n\ Ponto\ de\ in\u00EDcio\ do\ programa.\ Simplesmente\ informa\ que\ \u00E9\ um\ aplicativo\ gr\u00E1fico\ e\ passa\ o\ controle\n\ para\ o\ construtor\ do\ m\u00E9todo.\ Utiliza\ uma\ segunda\ thread\ para\ isso.\n\ \n\ @param\ args\ Argumentos\ recebidos\ da\ linha\ de\ comando.\n
+comment3.params=
+comment3.target=void\ run()
+numComments=4

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=arr
+comment0.target=void\ bubblesort(int[])
+comment0.text=\r\n\ Ordena\ crescentemente\ o\ arranjo\ pelo\ algoritmo\ da\ bolha,\r\n\ in-place\r\n\ @param\ arr\ arranjo\ de\ inteiros\ a\ ser\ ordenado\ \r\n
+comment1.params=arr
+comment1.target=void\ selectionsort(int[])
+comment1.text=\r\n\ Ordena\ crescentemente\ o\ arranjo\ pelo\ algoritmo\ da\ sele\u00E7\u00E3o,\r\n\ in-place\r\n\ @param\ arr\ arranjo\ de\ inteiros\ a\ ser\ ordenado\ \r\n
+comment2.params=arr
+comment2.target=void\ insertionshort(int[])
+comment2.text=\r\n\ Ordena\ crescentemente\ o\ arranjo\ pelo\ algoritmo\ da\ inser\u00E7\u00E3o\r\n\ in-place\r\n\ @param\ arr\ arranjo\ de\ inteiros\ a\ ser\ ordenado\ \r\n
+comment3.params=arr\ i\ j
+comment3.target=void\ trocar(int[],\ int,\ int)
+numComments=4

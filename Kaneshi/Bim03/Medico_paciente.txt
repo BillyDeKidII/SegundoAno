@@ -1,0 +1,28 @@
+--insert into paciente values(16,'Thiago','R.');
+--insert into medico values(4,'Dr. Drauzio Varela','Clinico Geral');
+--insert into MEDICO_PACIENTE values (12,2);
+--insert into EXAME values(26,12,'ULTRASSONOGRAFIA','JEJUM',345,'S','N','N');
+
+
+SELECT * FROM paciente 
+ORDER BY 1;
+
+SELECT * FROM medico 
+ORDER BY 1;
+
+SELECT * FROM MEDICO_PACIENTE
+ORDER BY COD_PACIENTE desc;
+
+SELECT MP.COD_PACIENTE, P.NOME_PACIENTE,
+       MP.COD_MEDICO, M.NOME_MEDICO,
+FROM MEDICO_PACIENTE MP, MEDICO M, PACIENTE P
+WHERE MP.COD_MEDICO = M.COD_MEDICO
+  AND MP.COD_PACIENTE = P.COD_PACIENTE
+  AND UPPER(M.NOME_MEDICO) LIKE 'Thiago%'
+ORDER BY P.COD_PACIENTE, MP.COD_MEDICO;
+
+SELECT * FROM EXAME;
+
+
+
+

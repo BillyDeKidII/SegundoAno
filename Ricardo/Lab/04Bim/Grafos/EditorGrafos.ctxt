@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\r\n\ Ponto\ de\ in\u00EDcio\ do\ programa.\ Informa\ que\ \u00E9\ um\ aplicativo\ gr\u00E1fico\ e\ passa\ o\ controle\r\n\ para\ o\ construtor\ do\ m\u00E9todo.\ Utiliza\ uma\ segunda\ thread\ para\ isso.\r\n\ \r\n\ @param\ args\ Argumentos\ recebidos\ da\ linha\ de\ comando.\r\n
+comment1.params=
+comment1.target=void\ run()
+comment2.params=
+comment2.target=EditorGrafos()
+comment2.text=\r\n\ O\ construtor\ do\ aplicativo\ Desenhista.\ \u00C9\ aqui\ que\ todos\ os\ elementos\ da\ interface\ gr\u00E1fica\ s\u00E3o\r\n\ constru\u00EDdos,\ configurados\ e\ posicionados.\r\n\ \r\n\ @see\ javax.swing.JFrame\r\n
+comment3.params=novoModo
+comment3.target=void\ mudarModoUI(EditorGrafos.ModoUI)
+numComments=4

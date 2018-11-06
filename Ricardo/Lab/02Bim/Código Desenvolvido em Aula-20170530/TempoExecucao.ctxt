@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=a\ b\ c
+comment0.target=int\ soma3(int,\ int,\ int)
+comment1.params=vals
+comment1.target=int\ somaTodos(int[])
+numComments=2
